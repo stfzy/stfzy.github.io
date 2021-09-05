@@ -1,13 +1,14 @@
 ---
 layout: default
 ---
-<article id="post-page">
-	<h2>{%if page.header %}{{ page.header }}{% else %}{{ page.title }}{% endif %}</h2>		
-	<time datetime="{{ page.date | date_to_xmlschema }}" class="by-line">{{ page.date | date_to_string }}</time>
-	<div class="content">
+<h1 class="post-headline">{{page.title}}</h1>
+<p class="meta"><small>{{page.date | date: '%B %d, %Y'}}</small></p>
 
-		{{ content }}
-		
-	</div>
-</article>
+{{content}}
 
+<!-- Comments only for posts -->
+{% if page.path contains '_posts' %}
+    {% if site.disqus-shortname %}
+        {% include disqus.html %}
+    {% endif %}
+{% endif %}
