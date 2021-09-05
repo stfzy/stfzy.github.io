@@ -1,10 +1,9 @@
 ---
 layout: post
-title: "获取进程ID"
 categories: Windows c++
 ---
 
-# 获取进程PID
+# 获取进程ID
 
 
 
