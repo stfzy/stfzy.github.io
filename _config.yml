@@ -1,11 +1,11 @@
 title: 技术记录
 author:
-  name: 有问题可以给我发邮件
+  name: 有问题可以给我发邮件22
   email: st2fzy@gmail.com
 description: > # this means to ignore newlines until "show_excerpts:"
   随时记录一些东西，方便查阅。
 
-show_excerpts: false # set to true to show excerpts on the homepage
+show_excerpts: true # set to true to show excerpts on the homepage
 
 # Minima date format
 # refer to https://shopify.github.io/liquid/filters/date/ if you want to customize this
@@ -47,8 +47,8 @@ minima:
 
 # If you want to link only specific pages in your header, uncomment
 # this and add the path to the pages in order as they should show up
-#header_pages:
-# - about.md
+header_pages:
+ - about.md
 
 # Build settings
 theme: minima
