@@ -27,7 +27,7 @@ twitter_username:
 github_username:  stfzy
 
 # Build settings
-theme: jekyll-theme-tactile
+theme: jekyll-theme-slate
 plugins:
   - jekyll-feed
 
