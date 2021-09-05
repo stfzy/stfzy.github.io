@@ -14,8 +14,8 @@ minima:
 
   # generate social links in footer
   social_links:
-    twitter: 
-    github:  stfzy
+    # twitter: 
+    # github:  stfzy
     # devto: jekyll
     # dribbble: jekyll
     # facebook: jekyll
