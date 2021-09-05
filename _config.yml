@@ -1,7 +1,11 @@
 title: 技术记录
-author:
-  name: stfzy
-  email: st2fzy@gmail.com
+email: st2fzy@gmail.com
+description: >- # this means to ignore newlines until "baseurl:"
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+twitter_username: 
+github_username:  stfzy
+
 description: > # this means to ignore newlines until "show_excerpts:"
    
 show_excerpts: false # set to true to show excerpts on the homepage
