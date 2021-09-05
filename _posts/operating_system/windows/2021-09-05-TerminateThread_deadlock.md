@@ -6,7 +6,7 @@ title:  "TerminateThread 导致LoadLibary 死锁"
 
 ---
 
-​		运行下边的代码，线程会死锁，因为在`LoadLibrary`过程中会有一个临界区被占用，如果正好是这个时候此线程被`TerminateThread`终止，那么所有的`LoadLibrary`及其他使用此锁的线程都会进入一个无限等待这个锁释放的状态。所以不光是自己实现的锁要小心，系统某些API也要小心，因为其内部也有同步的逻辑。
+运行下边的代码，线程会死锁，因为在`LoadLibrary`过程中会有一个临界区被占用，如果正好是这个时候此线程被`TerminateThread`终止，那么所有的`LoadLibrary`及其他使用此锁的线程都会进入一个无限等待这个锁释放的状态。所以不光是自己实现的锁要小心，系统某些API也要小心，因为其内部也有同步的逻辑。
 
 ```c++
 #include <windows.h>
