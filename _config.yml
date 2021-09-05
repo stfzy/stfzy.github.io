@@ -1,16 +1,14 @@
 # Site settings
-title: Blog - technology and science at TheReviewIndex
-description: "A blog for sharing thoughts on technology, science and insights at TheReviewIndex."
-url: "http://www.thereviewindex.github.io/blog"
-ogimage: "img/default-ogimage.png"
+title: Monochrome | A minimal, responsive Jekyll blog theme
+description: "A minimal, responsive, ready to use blog template, built with Jekyll."
+url: "http://www.dyutibarma.github.io/monochrome"
 author:
   name: "The Review Index"
-  email: "root@thereviewindex.com"
+  email: "dyutibarma@gmail.com"
   url: "https://thereviewindex.com"
 
-
 # Build settings
-baseurl: /blog # Change this to your relative path (ex: /blog/), or leave just a /
+baseurl: /monochrome # Change this to your relative path (ex: /blog/), or leave just a /
 markdown: kramdown
 source: .
 destination: ./_site

@@ -23,7 +23,7 @@ body {
 /*- Base color -*/
 
 $background-color: #FFFFFF;
-$text-color: #000000;
+$text-color: #333333;
 $text-light-color: rgba(0,0,0,0.6);
 $text-dark-color: #000000;
 
@@ -35,12 +35,12 @@ html {
 	@media (min-width: 940px) {
 		font-size: 18px;
 	}
-	line-height: 1.8em;
+	line-height: 1.8;
 	color: $text-color;
 }
 
 body {
- max-width: 800px;
+ max-width: 1000px;
  margin: 0 auto;
  padding: 0 10px;
 }
@@ -49,23 +49,11 @@ body {
 a {
 	color: $text-color;
 	text-decoration: none;
-	font-weight: 400;
+	font-weight: 700;
 	&:hover,
 	&:focus {
 		color: darken($text-color, 5%);
 	}
-}
-
-/* Media Queries */
-
-@media screen and (max-width: 600px) {
-  .show-only-large {display:none}
-  .show-only-small {display:block}
-}
-
-@media screen and (min-width: 600px) {
-  .show-only-large {display:block}
-  .show-only-small {display:none}
 }
 
 /* Common classes */
@@ -93,27 +81,3 @@ a {
 .bottom { bottom: 0 }
 .right { right: 0 }
 .left { left: 0 }
-
-// padding
-.m-t-6e {margin-top:6em}
-
-// fonts
-.fw-300 {font-weight: 300}
-.fw-400 {font-weight: 400}
-.fw-500 {font-weight: 500}
-
-.fs-12e {font-size: 1.2em}
-
-.fc-light {color: #777777}
-
-// borders
-.border-l-l {border-left: 1px solid #f2f2f2}
-
-//code
-.code
-{
-  font-family:monospace;
-}
-
-// tables
-td {border-bottom: 1px solid #f2f2f2}

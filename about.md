@@ -1,30 +1,33 @@
 ---
 layout: page
-title: About Us
-description: TheReviewIndex aspires to simplify the discovery and research process for gadgets and help you find the right products.
+title: About Monochrome
+description: This page describes monochrome.
 ---
+## About
+Monochrome is a minimal, responsive theme created for Jekyll. The goal of Monochrome is to provide a ready to use, plug and play theme for those who want to set up a blog, and focus solely on the content.
+
+## Features
+
+- Completely responsive and mobile first
+- Clean SEO friendly URLs, auto-generated from post title (no messy dates in the url)
+- SEO title/description integration
+- Sitemap ready
+- Easy customization for header, footer, navigation links, colors, favicon etc
+- Default Monochrome Color Palette - black, white, greys
+
+### Setup
+
+Monochrome may be installed by simply downloading the .zip folder from the [repository on Github](https://github.com/thereviewindex/monochrome/archive/master.zip).
+
+After extracting the content from the folder into the selected directory, you can type ``jekyll serve`` from the terminal, than open your browser to ``0.0.0.0:4000/monochrome/`` and you will find it there.
+
+Additionally it is possible to fork the repository and use Github Pages as hosting. By following this way it will be enough to change the ``baseurl`` value into the ``_config.yml`` file, with the directory name of your project (for example /blog) or simply with a "/" (slash) if you want install Monochrome in the root. 
 
 
-## About Us
 
-&nbsp;
+For further details on Monochrome, please visit the [repository on Github](https://github.com/thereviewindex/monochrome/).
 
-We are TheReviewIndex.
-
-We thought reading reviews, on sites like Amazon, is a bit too tedious. Most products have hundreds, even thousands of reviews. It's impossible to make sense of that many reviews, let alone compare across products.
-
-So we built [The Review Index](https://thereviewindex.com) that uses Neural Networks to detect and quantify recurring patterns in reviews, enabling one to go through thousands of reviews in a few minutes.
-
-Also - we call out products with significant volumes of spam / fake reviews so that one doesn't end up trusting them. 
-
-We recently launched a public beta for Amazon (US) electronic / gadget / appliance reviews, and are iterating over the website and algorithms. We will expand to include other marketplaces soon.
-
-There is a lot of data waiting to be churned and presented - stay tuned! 
+![Monochrome](img/monochrome01.png "monochrome")
 
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
