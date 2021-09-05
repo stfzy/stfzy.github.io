@@ -1,11 +1,9 @@
-title: Your awesome title
+title: 技术记录
 author:
-  name: GitHub User
-  email: your-email@domain.com
+  name: 有问题可以给我发邮件
+  email: st2fzy@gmail.com
 description: > # this means to ignore newlines until "show_excerpts:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  随时记录一些东西，方便查阅。
 
 show_excerpts: false # set to true to show excerpts on the homepage
 
@@ -16,8 +14,8 @@ minima:
 
   # generate social links in footer
   social_links:
-    twitter: jekyllrb
-    github:  jekyll
+    twitter: 
+    github:  stfzy
     # devto: jekyll
     # dribbble: jekyll
     # facebook: jekyll
