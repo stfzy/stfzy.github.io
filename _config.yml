@@ -1,11 +1,8 @@
 title: 技术记录
-
-email: st2fzy@gmail.com
+author: 
+  email: st2fzy@gmail.com
   
-github_username:  stfzy
-twitter_username: 
-github:  stfzy
-
+  
 #email: st2fzy@gmail.com
 #description: >- # this means to ignore newlines until "baseurl:"
 #baseurl: "" # the subpath of your site, e.g. /blog
@@ -24,8 +21,8 @@ minima:
 
   # generate social links in footer
   social_links:
-    twitter: jekyllrb
-    github:  jekyll
+    #twitter:
+    github:  stfzy
     # devto: jekyll
     # dribbble: jekyll
     # facebook: jekyll
