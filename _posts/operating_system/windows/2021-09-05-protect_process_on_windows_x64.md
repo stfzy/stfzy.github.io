@@ -1,4 +1,10 @@
-# Windows x64 实现进程保护
+---
+
+layout: post 
+
+title:  "Windows x64 实现进程保护" 
+
+---
 
 以前没有PG的时候，相信绝大部分人都是用的SSDT HOOK 来进行进程保护的。等有了PG该怎么办呢？答案就是用微软提供的 ObRegisterCallbacks 函数。
 
